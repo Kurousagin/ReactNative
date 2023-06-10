@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "KuHealth",
+    "slug": "KuHealth",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.yourcompany.yourappname",
+      "versionCode": 1
+    },
+    "favipackage": "com.kurousagin.KuHealth",
+    "versionCode": 1,
+    "extra": {
+      "eas": {
+        "projectId": "d8fe1d30-bdd0-4149-ad08-d54d1c50b420"
+      }
+    }
+  }
+}
