@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
     },
 
     numberImc:{
-        fontSize:40,
+        fontSize:48,
         color:"#ff0065",
         fontWeight:"bold",
 
@@ -24,7 +24,30 @@ const styles = StyleSheet.create({
         color:"#ff0065",
         fontWeight:"bold",
 
+    },
+
+    
+    sharedText:{
+       color:"#ffffff",
+       fontWeight:"bold",
+       paddingHorizontal:30,
+    },
+
+    boxShare:{
+        width:"100%",
+        alignItems:"center",
+        marginBottom:10,
+   },
+
+    shared:{
+        backgroundColor:"#1877f2",
+        borderRadius:50,
+        paddingBottom:5,
+        paddingTop:5,
+
+
     }
+
 
 })
 
